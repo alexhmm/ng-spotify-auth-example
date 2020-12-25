@@ -2,9 +2,9 @@
 
 Spotify Authorization Guide demo / example provided with Angular 11.
 
-`https://developer.spotify.com/documentation/general/guides/authorization-guide/`
+[Spotify for Developers - Authorization Guide](https://developer.spotify.com/documentation/general/guides/authorization-guide/)
 
-`https://github.com/spotify/web-api-auth-examples`
+[Spotify Accounts Authentication Examples in plain JavaScript](https://github.com/spotify/web-api-auth-examples)
 
 ## Installation
 
