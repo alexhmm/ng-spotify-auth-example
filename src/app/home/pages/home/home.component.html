@@ -1,0 +1,19 @@
+<h1>Logged in as {{ userProfile?.display_name }}</h1>
+<p><b>Display name</b> {{ userProfile?.display_name }}</p>
+<p><b>Id</b> {{ userProfile?.id }}</p>
+<p><b>Email</b> {{ userProfile?.email }}</p>
+<p><b>Spotify URI</b> {{ userProfile?.external_urls.spotify }}</p>
+<p><b>Link</b> {{ userProfile?.href }}</p>
+<p>
+  <b>Profile Image</b>&nbsp;
+  <img [src]="userProfile?.images[0].url" alt="Profile Image" />
+</p>
+<p><b>Country</b> {{ userProfile?.country }}</p>
+
+<h1>oAuth Info</h1>
+<p><b>Access token</b> {{ token?.access_token }}</p>
+<p><b>Refresh token</b> {{ token?.refresh_token }}</p>
+
+<button (click)="onGetRefreshToken()">
+  Obtain new token using the refresh token
+</button>
